@@ -1,12 +1,12 @@
 from flask import Flask, render_template, request
-from keras.preprocessing.image import img_to_array
+from tensorflow.keras.utils import img_to_array
 from keras.models import load_model
 from PIL import Image
 import io
 
 app = Flask(__name__)
 
-model = load_model('./ResNet_model.h5')
+model = load_model('team_project/ResNet_model.h5')
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
@@ -16,10 +16,10 @@ def index():
 
     if request.method == 'POST':
         img = request.files["file"].read()
-        img = Image.open(io.BytesIO(img))
+        img = Image.open(io.BytesIO(img)).convert("RGB")
         img = img.resize((256, 256))
         img = img_to_array(img)
-        img = img.reshape((1, img.shape[0], img.shape[1], img.shape[2]))
+        img = img.reshape((1, 256, 256, 3))
         
         pred = model.predict(img)
         label = pred.argmax()
