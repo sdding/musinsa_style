@@ -30,7 +30,7 @@ driver.implicitly_wait(1.5)
 # 카테고리 별 번호 매기기 위해서  dictionary 자료구조 생성
 # 기존 구조에 directory가 존재하면 , dictionary 자료구조 만들어놔야함
 # dict={}
-
+ 
 """
 @param
 URL              :   pagaination 체크 용도 
