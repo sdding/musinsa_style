@@ -13,7 +13,9 @@
 (걸리시, 댄디, 로맨틱, 스트릿, 스포츠, 시크, 캐주얼, 포멀)
 
 ## 데이터 파이프라인
-![asdfw](https://user-images.githubusercontent.com/86766081/176105127-d4a38b71-2105-4493-9b0c-7a3267db11d3.png)
+![pipe](https://user-images.githubusercontent.com/86766081/176106803-f7f6bc3b-54a6-449e-8972-af651dc0a5e4.png)
+
 
 * Selenium을 이용한 동적 웹 크롤링으로 이미지를 로컬에 저장
 * Tensorflow와 Pytorch를 이용하여 CNN, ResNet50 모델링
+* Flask를 이용해 웹 제작
