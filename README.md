@@ -18,4 +18,4 @@
 
 * Selenium을 이용한 동적 웹 크롤링으로 이미지를 로컬에 저장
 * Tensorflow와 Pytorch를 이용하여 CNN, ResNet50 모델링
-* Flask를 이용해 웹 제작
+* (진행중) Flask를 이용해 웹 제작 예정
