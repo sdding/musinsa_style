@@ -7,6 +7,7 @@
 ## 데이터
 ![111](https://user-images.githubusercontent.com/86766081/175889300-bf295912-107c-443c-99e8-e3c95ce11ed8.png)
 * 무신사 홈페이지 → 스타일 → 코디숍 에서 약 23,000개의 이미지를 수집
+    * https://www.musinsa.com/app/styles/lists
 * 이미지별 스타일(캐주얼, 스트릿 등)을 라벨로 하여 저장
 
 ![222](https://user-images.githubusercontent.com/86766081/175889933-3436a6ad-0eee-46ef-9c25-a53d00c05452.png)
