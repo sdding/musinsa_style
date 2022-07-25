@@ -2,7 +2,6 @@
 
 ## 프로젝트 목표
 * 사용자의 패션 이미지를 입력 받아 어떤 스타일인지 분류하여 알려주는 서비스
-* 이미지 학습을 통해 사람의 패션을 구분해 낼 수 있을까라는 호기심에서 시작된 프로젝트
 
 ## 데이터
 ![111](https://user-images.githubusercontent.com/86766081/175889300-bf295912-107c-443c-99e8-e3c95ce11ed8.png)
@@ -20,5 +19,5 @@
 
 
 * Selenium을 이용한 동적 웹 크롤링으로 이미지를 로컬에 저장
-* Tensorflow와 Pytorch를 이용하여 CNN, ResNet50 모델링
+* Tensorflow와 Pytorch를 이용하여 CNN, ResNet50, EfficientNetB0 모델링
 * (진행중) Flask를 이용해 웹 제작 예정
